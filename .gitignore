@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+*.exe
+
+# Los programas vuelven a escribir estas salidas.
+Results/**/*.csv
+
+# Instancias generadas. entrada_G3_mochila_20_nodos.json se conserva.
+Test_Data/bench_*.json
+Test_Data/test_data_*.json
